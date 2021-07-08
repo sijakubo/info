@@ -84,4 +84,5 @@ module.exports = {
             }
         },
     ],
+    pathPrefix: "/blog",
 }
