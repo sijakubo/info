@@ -1,0 +1,36 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# IDEs and editors
+/.idea
+*.iml
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+npm-debug.log
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# gatsby
+test/**/public
+.gatsby-context.js
+public/
+node_modules/
+e2e-tests/gatsby-pnp/
+__diff_output__/
+.cache/
+.netlify
+.Rhistory
