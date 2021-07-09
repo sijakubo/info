@@ -1,6 +1,6 @@
 ---
 title: "Groovy 3 Release Note Hightlights"
-date: "2021-07-08"
+date: "2021-07-09"
 draft: false
 path: "/blog/groovy-3-highlights"
 ---
