@@ -2,7 +2,7 @@
 title: "Samples"
 date: "2021-07-08"
 draft: true
-path: "/blog/example-title"
+path: "/notes/example-title"
 ---
 # H1
 

@@ -2,7 +2,7 @@
 title: "Groovy 3 Release Note Hightlights"
 date: "2021-07-09"
 draft: false
-path: "/blog/groovy-3-highlights"
+path: "/notes/groovy-3-highlights"
 ---
 
 I'm a huge Fan of groovy and therefore always excited about new additions and changes to the groovy lang. Therefore, here's a list of my personal highlights of the groovy 3 release.
