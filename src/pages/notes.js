@@ -36,9 +36,9 @@ const ReadingTime = styled.h5`
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Blog" />
+      <SEO title="Notes" />
       <Content>
-        <h1>Blog</h1>
+        <h1>Notes</h1>
         {data.allMarkdownRemark.edges
           .filter(({ node }) => {
             const rawDate = node.frontmatter.rawDate
@@ -46,22 +46,24 @@ const IndexPage = ({ data }) => {
             return date < new Date()
           })
           .map(({ node }) => (
-            <div key={node.id}>
-              <Link
-                to={node.frontmatter.path}
-                css={css`
-                  text-decoration: none;
-                  color: inherit;
-                `}
-              >
-                <MarkerHeader>{node.frontmatter.title}</MarkerHeader>
-              </Link>
-              <div>
-                <ArticleDate>{node.frontmatter.date}</ArticleDate>
-                <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
-              </div>
-              <p>{node.excerpt}</p>
-            </div>
+              <p>
+                <div className={"note"} key={node.id}>
+                  <Link
+                    to={node.frontmatter.path}
+                    css={css`
+                      text-decoration: none;
+                      color: inherit;
+                    `}
+                  >
+                    <MarkerHeader>{node.frontmatter.title}</MarkerHeader>
+                  </Link>
+                  <div>
+                    <ArticleDate>{node.frontmatter.date}</ArticleDate>
+                    <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
+                  </div>
+                  <p>{node.excerpt}</p>
+                </div>
+              </p>
           ))}
       </Content>
     </Layout>

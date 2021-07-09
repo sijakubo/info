@@ -631,3 +631,7 @@ a::selection {
     font-size: 100%;
   }
 }
+
+.note {
+  padding-top: 30px;
+}
