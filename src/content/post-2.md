@@ -1,5 +1,5 @@
 ---
-title: "Creating a blog using Gatsby and host it on GitHub Pages in 15 Minutes"
+title: "Creating a blog using Gatsby and host it on GitHub Pages in 15 Minutes for free"
 date: "2021-07-08"
 draft: false
 path: "/blog/create-deploy-gatsby-blog"
