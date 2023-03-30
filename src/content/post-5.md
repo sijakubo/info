@@ -1,5 +1,5 @@
 ---
-title: "Testcontainers | Postgres:Postgis with Spring and Spock"
+title: "Testcontainers | Postgres: Postgis with Spring and Spock"
 date: "2022-10-18"
 draft: false
 path: "/notes/testcontainers-spock-spring"
