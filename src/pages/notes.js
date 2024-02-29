@@ -1,10 +1,10 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { css } from "@emotion/core"
+import { css } from "@emotion/react"
 import styled from "@emotion/styled"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const Content = styled.div`
   margin: 0 auto;
@@ -36,7 +36,7 @@ const ReadingTime = styled.h5`
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Notes" />
+      <Seo title="Notes" />
       <Content>
         <h1>Notes</h1>
         {data.allMarkdownRemark.edges
@@ -46,24 +46,22 @@ const IndexPage = ({ data }) => {
             return date < new Date()
           })
           .map(({ node }) => (
-              <p>
-                <div className={"note"} key={node.id}>
-                  <Link
-                    to={node.frontmatter.path}
-                    css={css`
-                      text-decoration: none;
-                      color: inherit;
-                    `}
-                  >
-                    <MarkerHeader>{node.frontmatter.title}</MarkerHeader>
-                  </Link>
-                  <div>
-                    <ArticleDate>{node.frontmatter.date}</ArticleDate>
-                    <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
-                  </div>
-                  <p>{node.excerpt}</p>
-                </div>
-              </p>
+            <div className="blogpost" key={node.id}>
+              <Link
+                to={node.frontmatter.path}
+                css={css`
+                  text-decoration: none;
+                  color: inherit;
+                `}
+              >
+                <MarkerHeader>{node.frontmatter.title}</MarkerHeader>
+              </Link>
+              <div>
+                <ArticleDate>{node.frontmatter.date}</ArticleDate>
+                <ReadingTime> - {node.timeToRead} min</ReadingTime>
+              </div>
+              <p>{node.excerpt}</p>
+            </div>
           ))}
       </Content>
     </Layout>
@@ -95,10 +93,8 @@ export const query = graphql`
           }
           fields {
             slug
-            readingTime {
-              text
-            }
           }
+          timeToRead
           excerpt
         }
       }

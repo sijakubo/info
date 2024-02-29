@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const Content = styled.div`
   margin: 0 auto;
@@ -14,10 +14,10 @@ const MarkedHeader = styled.h1`
   display: inline;
   border-radius: 1em 0 1em 0;
   background-image: linear-gradient(
-    -100deg,
-    rgba(255, 250, 150, 0.15),
-    rgba(255, 250, 150, 0.8) 100%,
-    rgba(255, 250, 150, 0.25)
+          -100deg,
+          rgba(255, 250, 150, 0.15),
+          rgba(255, 250, 150, 0.8) 100%,
+          rgba(255, 250, 150, 0.25)
   );
 `
 
@@ -33,8 +33,8 @@ const MarkdownContent = styled.div`
     position: relative;
 
     background-image: linear-gradient(
-      rgba(255, 250, 150, 0.8),
-      rgba(255, 250, 150, 0.8)
+            rgba(255, 250, 150, 0.8),
+            rgba(255, 250, 150, 0.8)
     );
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
@@ -50,27 +50,29 @@ const MarkdownContent = styled.div`
   }
 `
 
-export default ({ data }) => {
+const Data = ({ data }) => {
   const post = data.markdownRemark
   return (
-    <Layout>
-      <SEO
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
-      />
-      <Content>
-        <MarkedHeader>{post.frontmatter.title}</MarkedHeader>
-        <HeaderDate>
-          {post.frontmatter.date} - {post.fields.readingTime.text}
-        </HeaderDate>
-        <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
-      </Content>
-    </Layout>
+          <Layout>
+            <Seo
+                    title={post.frontmatter.title}
+                    description={post.frontmatter.description || post.excerpt}
+            />
+            <Content>
+              <MarkedHeader>{post.frontmatter.title}</MarkedHeader>
+              <HeaderDate>
+                {post.frontmatter.date} - {post.timeToRead} min
+              </HeaderDate>
+              <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
+            </Content>
+          </Layout>
   )
 }
 
+export default Data
+
 export const pageQuery = graphql`
-  query($path: String!) {
+  query ($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       excerpt(pruneLength: 160)
@@ -79,11 +81,7 @@ export const pageQuery = graphql`
         path
         title
       }
-      fields {
-        readingTime {
-          text
-        }
-      }
+      timeToRead
     }
   }
 `

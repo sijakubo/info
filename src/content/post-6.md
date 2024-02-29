@@ -1,7 +1,7 @@
 ---
 title: "Zero downtime deployment with breaking DB-Schema change - by example"
 date: "2023-01-12"
-draft: true
+draft: false
 path: "/notes/zero-downtime-schema"
 ---
 
