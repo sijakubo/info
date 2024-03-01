@@ -51,6 +51,7 @@ const MarkdownContent = styled.div`
 `
 
 const Data = ({ data }) => {
+  console.log(data)
   const post = data.markdownRemark
   return (
           <Layout>
@@ -71,7 +72,7 @@ const Data = ({ data }) => {
 
 export default Data
 
-export const pageQuery = graphql`
+export const query = graphql`
   query ($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html

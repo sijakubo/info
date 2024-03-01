@@ -1,5 +1,6 @@
 module.exports = {
   pathPrefix: `/info`,
+  trailingSlash: `never`,
   siteMetadata: {
     title: `Simon Jakubowski`,
     subtitle: `software developer`,
