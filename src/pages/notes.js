@@ -12,20 +12,26 @@ const Content = styled.div`
   padding: 1.45rem 1.0875rem;
 `
 
-const ArticleDate = styled.h5`
+const ArticleDate = styled.h6`
   display: inline;
   color: #606060;
 `
 
-const MarkerHeader = styled.h3`
+const MarkerHeader = styled.h4`
   display: inline;
-  border-radius: 1em 0 1em 0;
-  background-image: linear-gradient(
-    -100deg,
-    rgba(255, 250, 150, 0.15),
-    rgba(255, 250, 150, 0.8) 100%,
-    rgba(255, 250, 150, 0.25)
-  );
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(#B77800, #B77800);
+  background-size: 100% 0.03rem;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size .7s, background-position .5s, color .7s ease-in-out;
+
+  :hover {
+    background-size: 100% 100%;
+    background-position: 0 100%;
+    transition: background-position .7s, background-size .5s, color .7s ease-in-out;
+    color: #33353F
+  }
 `
 
 const ReadingTime = styled.h5`
@@ -95,7 +101,7 @@ export const query = graphql`
             slug
           }
           timeToRead
-          excerpt
+          excerpt(pruneLength: 300)
         }
       }
     }
