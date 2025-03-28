@@ -1,9 +1,9 @@
----
-title: "Postgres JSON beginner Class"
-date: "2021-07-10"
-draft: false
-path: "/notes/postgres-json-beginner-class"
----
++++
+date = "2021-07-10"
+draft = false
+title = "Postgres JSON beginner Class"
+tags = ["postgres", "json", "jsonb"]
++++
 
 Operators see: https://www.postgresql.org/docs/9.5/functions-json.html
 

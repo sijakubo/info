@@ -1,9 +1,9 @@
----
-title: "PostgreSQL Composite Types to reduce boilerplate code from you database schema"
-date: "2023-03-30"
-draft: false
-path: "/notes/postgres-composite-types"
----
++++
+title = "PostgreSQL Composite Types to reduce boilerplate code from you database schema"
+date = "2023-03-30"
+draft = false
+tags = ["postgres", "composite", "types", "schema", "hibernate"]
++++
 
 PostgreSQL is a powerful and flexible open-source relational database management system. One of its most useful features is the ability to define [custom composite types](https://www.postgresql.org/docs/current/rowtypes.html) (Since Postgres 11), which are user-defined data types that combine multiple fields of different types into a single logical entity. In this article, we'll explore the benefits of using composite types in PostgreSQL and how to use them in your database schema.
 

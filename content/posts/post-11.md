@@ -1,9 +1,9 @@
----
-title: "Enhance your Java Spring Applications with AI"
-date: "2024-03-08"
-draft: false
-path: "/notes/java-spring-ai"
----
++++
+title = "Enhance your Java Spring Applications with AI"
+date = "2024-03-08"
+draft = false
+tags = ["spring", "ai", "openai", "azure", "amazon", "google"]
++++
 
 I came across the release notes for [Spring AI 0.8.0](https://spring.io/blog/2024/02/23/spring-ai-0-8-0-released) and i thought i might give it a try and it's frighteningly simple to do so. Here is a short sample Project: https://github.com/sijakubo/spring-ai-test
 
