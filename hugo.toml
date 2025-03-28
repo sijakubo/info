@@ -1,7 +1,7 @@
 baseURL = "http://sijakubo.de/"
 
 # Change the default theme to be used when building the site with Hugo
-theme = "loveit"
+theme = "loveIt"
 
 # Website title
 title = "Simon Jakubowski"
