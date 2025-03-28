@@ -49,6 +49,14 @@ languageName = "Detusch"
 [params]
   title = "Simon Jakubowski"
   description = "About Simon Jakubowski"
+  [params.header]
+    [params.header.title]
+      name = "Simon Jakubowski"
+      typeit = true
+  [params.home]
+    [params.home.profile]
+      typeit = false
+      subtitle = ""
   [params.author]
     name = " Simon Jakubowski"
     email = "sijakubo@gmail.com"
@@ -56,13 +64,15 @@ languageName = "Detusch"
   [params.social]
     GitHub = "sijakubo"
     Linkedin = "simon-jakubowski"
+  [params.search]
+    enable = true
 
 # Output formats
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "MarkDown"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
+  page = ["HTML", "MarkDown", "JSON"]
+  section = ["HTML", "RSS", "JSON"]
+  taxonomy = ["HTML", "RSS", "JSON"]
 
 [caches]
   [caches.images]
