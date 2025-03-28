@@ -1,9 +1,9 @@
----
-title: "Groovy 3 Release Note Hightlights"
-date: "2021-07-09"
-draft: false
-path: "/notes/groovy-3-highlights"
----
++++
+date = "2021-07-09"
+draft = false
+title = "Groovy 3 Release Note Hightlights"
+tags = ["groovy", "groovy3", "release"]
++++
 
 I'm a huge Fan of groovy and therefore always excited about new additions and changes to the groovy lang. Therefore, here's a list of my personal highlights of the groovy 3 release.
 

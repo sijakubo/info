@@ -1,9 +1,9 @@
----
-title: "Integrate DynamoDB in Spring Boot and Gitlab-CI using aws sdk 2.x"
-date: "2024-01-31"
-draft: false
-path: "/notes/java-dynamod-sdk3"
----
++++
+title = "Integrate DynamoDB in Spring Boot and Gitlab-CI using aws sdk 2.x"
+date = "2024-01-31"
+draft = false
+tags = ["aws", "dynamodb", "spring", "gitlab-ci"]
++++
 
 
 I had significant issues integrating DynamoDB into one of our projects. The main challenge was finding suitable documentation, as many sources describe integration with AWS SDK version 1.x.

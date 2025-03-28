@@ -1,9 +1,9 @@
----
-title: "Create a Feature Collection from Postgis Geometries using Postgis >= 3.0.0"
-date: "2023-04-27"
-draft: false
-path: "/notes/feature-collection-postgis"
----
++++
+title = "Create a Feature Collection from Postgis Geometries using Postgis >= 3.0.0"
+date = "2023-04-27"
+draft = false
+tags = ["postgres", "postgis", "geojson", "feature", "featurecollection"]
++++
 
 Generating a Feature and Feature Collection form postgis is rather simple. If you convert a simple [GEOMETRY](https://postgis.net/docs/geometry.html) with the [`st_asgeojson`](https://postgis.net/docs/ST_AsGeoJSON.html) postgis will generate a GeoJSON "geometry".
 

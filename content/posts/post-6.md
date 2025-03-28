@@ -1,9 +1,9 @@
----
-title: "Zero downtime deployment with breaking DB-Schema change - by example"
-date: "2023-01-12"
-draft: false
-path: "/notes/zero-downtime-schema"
----
++++
+title = "Zero downtime deployment with breaking DB-Schema change - by example"
+date = "2023-01-12"
+draft = false
+tags = ["postgres", "db", "schema", "deployment", "zero-downtime"] 
++++
 
 When running multiple Server nodes, sharing the same Database, it becomes more and more important to handle backwards compatibility on the database especially during Deployments.
 

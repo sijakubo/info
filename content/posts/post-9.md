@@ -1,9 +1,9 @@
----
-title: "CORS for dummies"
-date: "2023-10-11"
-draft: false
-path: "/notes/cors-for-dummies"
----
++++
+title = "CORS for dummies"
+date = "2023-10-11"
+draft = false
+tags = ["cors", "http", "backend", "frontend"]
++++
 
 # What is CORS?
 

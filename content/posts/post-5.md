@@ -1,9 +1,9 @@
----
-title: "Testcontainers | Postgres: Postgis with Spring and Spock"
-date: "2022-10-18"
-draft: false
-path: "/notes/testcontainers-spock-spring"
----
++++
+title = "Testcontainers | Postgres: Postgis with Spring and Spock"
+date = "2022-10-18"
+draft = false
+tags = ["testcontainers", "postgres", "postgis", "spring", "spock"]
++++
 
 A great way to include all the required resources for integration tests, [Testcontainers](https://www.testcontainers.org/) provides an easy way to start docker containers from within your testcode. This removes the necessity to create test `docker-compose.yml` files and write `README.md` code on how to even run a test.
 
