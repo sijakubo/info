@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Hibernate - Tag - Simon Jakubowski</title>
-        <link>http://localhost:1313/tags/hibernate/</link>
+        <link>http://sijakubo.de/tags/hibernate/</link>
         <description>Hibernate - Tag - Simon Jakubowski</description>
         <generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>sijakubo@gmail.com ( Simon Jakubowski)</managingEditor>
-            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Thu, 30 Mar 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/hibernate/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Thu, 30 Mar 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://sijakubo.de/tags/hibernate/" rel="self" type="application/rss+xml" /><item>
     <title>PostgreSQL Composite Types to reduce boilerplate code from you database schema</title>
-    <link>http://localhost:1313/posts/post-7/</link>
+    <link>http://sijakubo.de/posts/post-7/</link>
     <pubDate>Thu, 30 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author> Simon Jakubowski</author>
-    <guid>http://localhost:1313/posts/post-7/</guid>
+    <guid>http://sijakubo.de/posts/post-7/</guid>
     <description><![CDATA[<p>PostgreSQL is a powerful and flexible open-source relational database management system. One of its most useful features is the ability to define <a href="https://www.postgresql.org/docs/current/rowtypes.html" target="_blank" rel="noopener noreffer ">custom composite types</a> (Since Postgres 11), which are user-defined data types that combine multiple fields of different types into a single logical entity. In this article, we&rsquo;ll explore the benefits of using composite types in PostgreSQL and how to use them in your database schema.</p>
 <h3 id="create-composite-type">Create Composite Type</h3>
 <p>To define a composite type in PostgreSQL, you use the CREATE TYPE statement, followed by the name of the type and a list of its component fields and types. For example, here&rsquo;s how you might define a audit type:</p>]]></description>

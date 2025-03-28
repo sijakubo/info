@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Postgres - Tag - Simon Jakubowski</title>
-        <link>http://localhost:1313/tags/postgres/</link>
+        <link>http://sijakubo.de/tags/postgres/</link>
         <description>Postgres - Tag - Simon Jakubowski</description>
         <generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>sijakubo@gmail.com ( Simon Jakubowski)</managingEditor>
-            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Thu, 27 Apr 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/postgres/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Thu, 27 Apr 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://sijakubo.de/tags/postgres/" rel="self" type="application/rss+xml" /><item>
     <title>Create a Feature Collection from Postgis Geometries using Postgis &gt;= 3.0.0</title>
-    <link>http://localhost:1313/posts/post-8/</link>
+    <link>http://sijakubo.de/posts/post-8/</link>
     <pubDate>Thu, 27 Apr 2023 00:00:00 &#43;0000</pubDate>
     <author> Simon Jakubowski</author>
-    <guid>http://localhost:1313/posts/post-8/</guid>
+    <guid>http://sijakubo.de/posts/post-8/</guid>
     <description><![CDATA[<p>Generating a Feature and Feature Collection form postgis is rather simple. If you convert a simple <a href="https://postgis.net/docs/geometry.html" target="_blank" rel="noopener noreffer ">GEOMETRY</a> with the <a href="https://postgis.net/docs/ST_AsGeoJSON.html" target="_blank" rel="noopener noreffer "><code>st_asgeojson</code></a> postgis will generate a GeoJSON &ldquo;geometry&rdquo;.</p>
 <div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
     <div class="code-header language-sql">
@@ -32,29 +32,29 @@
 </item>
 <item>
     <title>PostgreSQL Composite Types to reduce boilerplate code from you database schema</title>
-    <link>http://localhost:1313/posts/post-7/</link>
+    <link>http://sijakubo.de/posts/post-7/</link>
     <pubDate>Thu, 30 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author> Simon Jakubowski</author>
-    <guid>http://localhost:1313/posts/post-7/</guid>
+    <guid>http://sijakubo.de/posts/post-7/</guid>
     <description><![CDATA[<p>PostgreSQL is a powerful and flexible open-source relational database management system. One of its most useful features is the ability to define <a href="https://www.postgresql.org/docs/current/rowtypes.html" target="_blank" rel="noopener noreffer ">custom composite types</a> (Since Postgres 11), which are user-defined data types that combine multiple fields of different types into a single logical entity. In this article, we&rsquo;ll explore the benefits of using composite types in PostgreSQL and how to use them in your database schema.</p>
 <h3 id="create-composite-type">Create Composite Type</h3>
 <p>To define a composite type in PostgreSQL, you use the CREATE TYPE statement, followed by the name of the type and a list of its component fields and types. For example, here&rsquo;s how you might define a audit type:</p>]]></description>
 </item>
 <item>
     <title>Zero downtime deployment with breaking DB-Schema change - by example</title>
-    <link>http://localhost:1313/posts/post-6/</link>
+    <link>http://sijakubo.de/posts/post-6/</link>
     <pubDate>Thu, 12 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author> Simon Jakubowski</author>
-    <guid>http://localhost:1313/posts/post-6/</guid>
+    <guid>http://sijakubo.de/posts/post-6/</guid>
     <description><![CDATA[<p>When running multiple Server nodes, sharing the same Database, it becomes more and more important to handle backwards compatibility on the database especially during Deployments.</p>
 <p>When we start da Deployment, a new Server node is being deployed to a cluster. This node will then migrate the Database to it&rsquo;s designated schema version. If this new version is not backwards compatible, the currently running Server instances will run into several problems, reading or writing to the database.</p>]]></description>
 </item>
 <item>
     <title>Testcontainers | Postgres: Postgis with Spring and Spock</title>
-    <link>http://localhost:1313/posts/post-5/</link>
+    <link>http://sijakubo.de/posts/post-5/</link>
     <pubDate>Tue, 18 Oct 2022 00:00:00 &#43;0000</pubDate>
     <author> Simon Jakubowski</author>
-    <guid>http://localhost:1313/posts/post-5/</guid>
+    <guid>http://sijakubo.de/posts/post-5/</guid>
     <description><![CDATA[<p>A great way to include all the required resources for integration tests, <a href="https://www.testcontainers.org/" target="_blank" rel="noopener noreffer ">Testcontainers</a> provides an easy way to start docker containers from within your testcode. This removes the necessity to create test <code>docker-compose.yml</code> files and write <code>README.md</code> code on how to even run a test.</p>
 <p>Here is a short example using testcontainers with Spring and Spock on a Postgis / Postgres database.</p>
 <div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
@@ -116,10 +116,10 @@
 </item>
 <item>
     <title>Postgres JSON beginner Class</title>
-    <link>http://localhost:1313/posts/post-4/</link>
+    <link>http://sijakubo.de/posts/post-4/</link>
     <pubDate>Sat, 10 Jul 2021 00:00:00 &#43;0000</pubDate>
     <author> Simon Jakubowski</author>
-    <guid>http://localhost:1313/posts/post-4/</guid>
+    <guid>http://sijakubo.de/posts/post-4/</guid>
     <description><![CDATA[<p>Operators see: <a href="https://www.postgresql.org/docs/9.5/functions-json.html" target="_blank" rel="noopener noreffer ">https://www.postgresql.org/docs/9.5/functions-json.html</a></p>
 <h1 id="create-column-using-jsonb">Create column using jsonb</h1>
 <div class="code-block code-line-numbers open" style="counter-reset: code-block 0">

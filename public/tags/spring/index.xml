@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Spring - Tag - Simon Jakubowski</title>
-        <link>http://localhost:1313/tags/spring/</link>
+        <link>http://sijakubo.de/tags/spring/</link>
         <description>Spring - Tag - Simon Jakubowski</description>
         <generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>sijakubo@gmail.com ( Simon Jakubowski)</managingEditor>
-            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Fri, 08 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/spring/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Fri, 08 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://sijakubo.de/tags/spring/" rel="self" type="application/rss+xml" /><item>
     <title>Enhance your Java Spring Applications with AI</title>
-    <link>http://localhost:1313/posts/post-11/</link>
+    <link>http://sijakubo.de/posts/post-11/</link>
     <pubDate>Fri, 08 Mar 2024 00:00:00 &#43;0000</pubDate>
     <author> Simon Jakubowski</author>
-    <guid>http://localhost:1313/posts/post-11/</guid>
+    <guid>http://sijakubo.de/posts/post-11/</guid>
     <description><![CDATA[<p>I came across the release notes for <a href="https://spring.io/blog/2024/02/23/spring-ai-0-8-0-released" target="_blank" rel="noopener noreffer ">Spring AI 0.8.0</a> and i thought i might give it a try and it&rsquo;s frighteningly simple to do so. Here is a short sample Project: <a href="https://github.com/sijakubo/spring-ai-test" target="_blank" rel="noopener noreffer ">https://github.com/sijakubo/spring-ai-test</a></p>
 <p>You just have to:</p>
 <ul>
@@ -37,20 +37,20 @@
 </item>
 <item>
     <title>Integrate DynamoDB in Spring Boot and Gitlab-CI using aws sdk 2.x</title>
-    <link>http://localhost:1313/posts/post-10/</link>
+    <link>http://sijakubo.de/posts/post-10/</link>
     <pubDate>Wed, 31 Jan 2024 00:00:00 &#43;0000</pubDate>
     <author> Simon Jakubowski</author>
-    <guid>http://localhost:1313/posts/post-10/</guid>
+    <guid>http://sijakubo.de/posts/post-10/</guid>
     <description><![CDATA[<p>I had significant issues integrating DynamoDB into one of our projects. The main challenge was finding suitable documentation, as many sources describe integration with AWS SDK version 1.x.</p>
 <p>In true Scout&rsquo;s honor, here&rsquo;s a brief description of how to integrate DynamoDB using AWS SDK 2.x into a Spring Boot project.</p>
 <p>In the project, start the following Docker container to have a local DynamoDB for development purposes. Here&rsquo;s an excerpt from our <code>docker-compose.yml</code>:</p>]]></description>
 </item>
 <item>
     <title>Testcontainers | Postgres: Postgis with Spring and Spock</title>
-    <link>http://localhost:1313/posts/post-5/</link>
+    <link>http://sijakubo.de/posts/post-5/</link>
     <pubDate>Tue, 18 Oct 2022 00:00:00 &#43;0000</pubDate>
     <author> Simon Jakubowski</author>
-    <guid>http://localhost:1313/posts/post-5/</guid>
+    <guid>http://sijakubo.de/posts/post-5/</guid>
     <description><![CDATA[<p>A great way to include all the required resources for integration tests, <a href="https://www.testcontainers.org/" target="_blank" rel="noopener noreffer ">Testcontainers</a> provides an easy way to start docker containers from within your testcode. This removes the necessity to create test <code>docker-compose.yml</code> files and write <code>README.md</code> code on how to even run a test.</p>
 <p>Here is a short example using testcontainers with Spring and Spock on a Postgis / Postgres database.</p>
 <div class="code-block code-line-numbers open" style="counter-reset: code-block 0">

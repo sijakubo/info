@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Zero-Downtime - Tag - Simon Jakubowski</title>
-        <link>http://localhost:1313/tags/zero-downtime/</link>
+        <link>http://sijakubo.de/tags/zero-downtime/</link>
         <description>Zero-Downtime - Tag - Simon Jakubowski</description>
         <generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>sijakubo@gmail.com ( Simon Jakubowski)</managingEditor>
-            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Thu, 12 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/zero-downtime/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Thu, 12 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://sijakubo.de/tags/zero-downtime/" rel="self" type="application/rss+xml" /><item>
     <title>Zero downtime deployment with breaking DB-Schema change - by example</title>
-    <link>http://localhost:1313/posts/post-6/</link>
+    <link>http://sijakubo.de/posts/post-6/</link>
     <pubDate>Thu, 12 Jan 2023 00:00:00 &#43;0000</pubDate>
     <author> Simon Jakubowski</author>
-    <guid>http://localhost:1313/posts/post-6/</guid>
+    <guid>http://sijakubo.de/posts/post-6/</guid>
     <description><![CDATA[<p>When running multiple Server nodes, sharing the same Database, it becomes more and more important to handle backwards compatibility on the database especially during Deployments.</p>
 <p>When we start da Deployment, a new Server node is being deployed to a cluster. This node will then migrate the Database to it&rsquo;s designated schema version. If this new version is not backwards compatible, the currently running Server instances will run into several problems, reading or writing to the database.</p>]]></description>
 </item>

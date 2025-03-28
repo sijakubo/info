@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Jsonb - Tag - Simon Jakubowski</title>
-        <link>http://localhost:1313/tags/jsonb/</link>
+        <link>http://sijakubo.de/tags/jsonb/</link>
         <description>Jsonb - Tag - Simon Jakubowski</description>
         <generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>sijakubo@gmail.com ( Simon Jakubowski)</managingEditor>
-            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Sat, 10 Jul 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/jsonb/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Sat, 10 Jul 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://sijakubo.de/tags/jsonb/" rel="self" type="application/rss+xml" /><item>
     <title>Postgres JSON beginner Class</title>
-    <link>http://localhost:1313/posts/post-4/</link>
+    <link>http://sijakubo.de/posts/post-4/</link>
     <pubDate>Sat, 10 Jul 2021 00:00:00 &#43;0000</pubDate>
     <author> Simon Jakubowski</author>
-    <guid>http://localhost:1313/posts/post-4/</guid>
+    <guid>http://sijakubo.de/posts/post-4/</guid>
     <description><![CDATA[<p>Operators see: <a href="https://www.postgresql.org/docs/9.5/functions-json.html" target="_blank" rel="noopener noreffer ">https://www.postgresql.org/docs/9.5/functions-json.html</a></p>
 <h1 id="create-column-using-jsonb">Create column using jsonb</h1>
 <div class="code-block code-line-numbers open" style="counter-reset: code-block 0">

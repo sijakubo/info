@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Geojson - Tag - Simon Jakubowski</title>
-        <link>http://localhost:1313/tags/geojson/</link>
+        <link>http://sijakubo.de/tags/geojson/</link>
         <description>Geojson - Tag - Simon Jakubowski</description>
         <generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>sijakubo@gmail.com ( Simon Jakubowski)</managingEditor>
-            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Thu, 27 Apr 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/geojson/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Thu, 27 Apr 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://sijakubo.de/tags/geojson/" rel="self" type="application/rss+xml" /><item>
     <title>Create a Feature Collection from Postgis Geometries using Postgis &gt;= 3.0.0</title>
-    <link>http://localhost:1313/posts/post-8/</link>
+    <link>http://sijakubo.de/posts/post-8/</link>
     <pubDate>Thu, 27 Apr 2023 00:00:00 &#43;0000</pubDate>
     <author> Simon Jakubowski</author>
-    <guid>http://localhost:1313/posts/post-8/</guid>
+    <guid>http://sijakubo.de/posts/post-8/</guid>
     <description><![CDATA[<p>Generating a Feature and Feature Collection form postgis is rather simple. If you convert a simple <a href="https://postgis.net/docs/geometry.html" target="_blank" rel="noopener noreffer ">GEOMETRY</a> with the <a href="https://postgis.net/docs/ST_AsGeoJSON.html" target="_blank" rel="noopener noreffer "><code>st_asgeojson</code></a> postgis will generate a GeoJSON &ldquo;geometry&rdquo;.</p>
 <div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
     <div class="code-header language-sql">

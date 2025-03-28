@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Gatsby - Tag - Simon Jakubowski</title>
-        <link>http://localhost:1313/tags/gatsby/</link>
+        <link>http://sijakubo.de/tags/gatsby/</link>
         <description>Gatsby - Tag - Simon Jakubowski</description>
         <generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>sijakubo@gmail.com ( Simon Jakubowski)</managingEditor>
-            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Thu, 09 Jul 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/gatsby/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Thu, 09 Jul 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://sijakubo.de/tags/gatsby/" rel="self" type="application/rss+xml" /><item>
     <title>Creating a blog using Gatsby and host it on GitHub Pages in 15 Minutes for free</title>
-    <link>http://localhost:1313/posts/post-2/</link>
+    <link>http://sijakubo.de/posts/post-2/</link>
     <pubDate>Thu, 09 Jul 2020 00:00:00 &#43;0000</pubDate>
     <author> Simon Jakubowski</author>
-    <guid>http://localhost:1313/posts/post-2/</guid>
+    <guid>http://sijakubo.de/posts/post-2/</guid>
     <description><![CDATA[<p>Of course you would write the first blog post about creating the actual blog itself. So do I.</p>
 <h1 id="create-gatsby-blog">Create Gatsby blog</h1>
 <h2 id="install-gatsby">Install Gatsby</h2>

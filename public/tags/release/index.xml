@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Release - Tag - Simon Jakubowski</title>
-        <link>http://localhost:1313/tags/release/</link>
+        <link>http://sijakubo.de/tags/release/</link>
         <description>Release - Tag - Simon Jakubowski</description>
         <generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>sijakubo@gmail.com ( Simon Jakubowski)</managingEditor>
-            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Fri, 09 Jul 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/release/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Fri, 09 Jul 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://sijakubo.de/tags/release/" rel="self" type="application/rss+xml" /><item>
     <title>Groovy 3 Release Note Hightlights</title>
-    <link>http://localhost:1313/posts/post-3/</link>
+    <link>http://sijakubo.de/posts/post-3/</link>
     <pubDate>Fri, 09 Jul 2021 00:00:00 &#43;0000</pubDate>
     <author> Simon Jakubowski</author>
-    <guid>http://localhost:1313/posts/post-3/</guid>
+    <guid>http://sijakubo.de/posts/post-3/</guid>
     <description><![CDATA[<p>I&rsquo;m a huge Fan of groovy and therefore always excited about new additions and changes to the groovy lang. Therefore, here&rsquo;s a list of my personal highlights of the groovy 3 release.</p>
 <p>The complete release-notes can be found here: <a href="https://groovy-lang.org/releasenotes/groovy-3.0.html" target="_blank" rel="noopener noreffer ">Groovy 3 Release Notes</a>:</p>
 <h2 id="in-operator"><code>!in</code> Operator</h2>
