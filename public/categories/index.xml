@@ -1,8 +1,0 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Categories - Category - Simon Jakubowski</title>
-        <link>http://sijakubo.de/categories/</link>
-        <description>Categories - Category - Simon Jakubowski</description>
-        <generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>sijakubo@gmail.com ( Simon Jakubowski)</managingEditor>
-            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><atom:link href="http://sijakubo.de/categories/" rel="self" type="application/rss+xml" /></channel>
-</rss>
