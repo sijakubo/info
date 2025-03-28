@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Backend - Tag - Simon Jakubowski</title>
+        <link>http://localhost:1313/tags/backend/</link>
+        <description>Backend - Tag - Simon Jakubowski</description>
+        <generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>sijakubo@gmail.com ( Simon Jakubowski)</managingEditor>
+            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Wed, 11 Oct 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/backend/" rel="self" type="application/rss+xml" /><item>
+    <title>CORS for dummies</title>
+    <link>http://localhost:1313/posts/post-9/</link>
+    <pubDate>Wed, 11 Oct 2023 00:00:00 &#43;0000</pubDate>
+    <author> Simon Jakubowski</author>
+    <guid>http://localhost:1313/posts/post-9/</guid>
+    <description><![CDATA[<h1 id="what-is-cors">What is CORS?</h1>
+<p>CORS, an abbreviation for &ldquo;Cross-Origin Resource Sharing,&rdquo; fundamentally aims to ensure that data is distributed only to &ldquo;trusted&rdquo; users.
+However, this assurance is not server-side but rather on the client side. For instance, if CORS is enabled on a server, it sends additional
+response headers, allowing the client to verify whether the request is permitted from the current origin domain.</p>
+<p>Modern browsers block access to data that is not considered &ldquo;trusted&rdquo; for the current origin domain. These are the CORS errors that often
+occur in the browser&rsquo;s network tab. Using developer tools such as Postman, data can be retrieved from origins not deemed &ldquo;trusted&rdquo; because
+CORS validation is simply ignored. This can occasionally complicate the analysis of such issues.</p>]]></description>
+</item>
+</channel>
+</rss>

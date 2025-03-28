@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Gitlab-Ci - Tag - Simon Jakubowski</title>
+        <link>http://localhost:1313/tags/gitlab-ci/</link>
+        <description>Gitlab-Ci - Tag - Simon Jakubowski</description>
+        <generator>Hugo -- gohugo.io</generator><language>de</language><managingEditor>sijakubo@gmail.com ( Simon Jakubowski)</managingEditor>
+            <webMaster>sijakubo@gmail.com ( Simon Jakubowski)</webMaster><lastBuildDate>Wed, 31 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/gitlab-ci/" rel="self" type="application/rss+xml" /><item>
+    <title>Integrate DynamoDB in Spring Boot and Gitlab-CI using aws sdk 2.x</title>
+    <link>http://localhost:1313/posts/post-10/</link>
+    <pubDate>Wed, 31 Jan 2024 00:00:00 &#43;0000</pubDate>
+    <author> Simon Jakubowski</author>
+    <guid>http://localhost:1313/posts/post-10/</guid>
+    <description><![CDATA[<p>I had significant issues integrating DynamoDB into one of our projects. The main challenge was finding suitable documentation, as many sources describe integration with AWS SDK version 1.x.</p>
+<p>In true Scout&rsquo;s honor, here&rsquo;s a brief description of how to integrate DynamoDB using AWS SDK 2.x into a Spring Boot project.</p>
+<p>In the project, start the following Docker container to have a local DynamoDB for development purposes. Here&rsquo;s an excerpt from our <code>docker-compose.yml</code>:</p>]]></description>
+</item>
+</channel>
+</rss>
