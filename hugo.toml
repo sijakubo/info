@@ -66,6 +66,8 @@ languageName = "Detusch"
     Linkedin = "simon-jakubowski"
   [params.search]
     enable = true
+  [params.app]
+    title = "Simon Jakubowski"
 
 # Output formats
 [outputs]
