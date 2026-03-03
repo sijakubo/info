@@ -1,4 +1,4 @@
-baseURL = "https://sijakubo.github.io/info/"
+baseURL = "http://sijakubo.de/"
 
 # Change the default theme to be used when building the site with Hugo
 theme = "loveIt"
