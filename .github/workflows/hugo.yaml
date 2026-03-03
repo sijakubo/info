@@ -67,15 +67,6 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
-      - name: Debug - List public dir
-        run: |
-          echo "=== baseURL output: ${{ steps.pages.outputs.base_url }}"
-          echo "=== public/ top level:"
-          ls -la public/
-          echo "=== public/posts/:"
-          ls -la public/posts/ || echo "posts dir missing!"
-          echo "=== public/posts/post-12/:"
-          ls -la public/posts/post-12/ || echo "post-12 dir missing!"
       - name: Cache Save
         id: cache-save
         uses: actions/cache/save@v4
