@@ -54,9 +54,13 @@ languageName = "Detusch"
       name = "Simon Jakubowski"
       typeit = true
   [params.home]
+    homeStyle = "posts"
     [params.home.profile]
       typeit = false
       subtitle = ""
+  [params.section]
+    paginate = 20
+    dateFormat = "01-02"
   [params.author]
     name = " Simon Jakubowski"
     email = "sijakubo@gmail.com"
