@@ -1,0 +1,181 @@
+// ==============================
+// Custom Style
+// ==============================
+
+// Light Theme: Sekundäre Schriftfarbe von #a9a9b3 auf #444444 ändern
+$global-font-secondary-color: #444444 !default;
+
+// Dark Theme: Sekundäre Schriftfarbe von #5d5d5f auf #dcdcdc ändern
+$global-font-secondary-color-dark: #dcdcdc !default;
+
+// Überschreibe alle Stellen, die die alten Farben verwenden
+body {
+  color: #444444;
+}
+
+[theme=dark] body {
+  color: #dcdcdc;
+}
+
+// Post Meta
+.single .post-meta {
+  color: #444444;
+}
+
+[theme=dark] .single .post-meta {
+  color: #dcdcdc;
+}
+
+// Content Farben
+.single .content .footnotes {
+  color: #444444;
+}
+
+[theme=dark] .single .content .footnotes {
+  color: #dcdcdc;
+}
+
+// Ruby Annotation
+.single .content ruby rt,
+.toc ruby rt {
+  color: #444444;
+}
+
+[theme=dark] .single .content ruby rt,
+[theme=dark] .toc ruby rt {
+  color: #dcdcdc;
+}
+
+// Home Summary Content
+.home[data-home=posts] .summary .content {
+  color: #444444;
+}
+
+[theme=dark] .home[data-home=posts] .summary .content {
+  color: #dcdcdc;
+}
+
+.home[data-home=posts] .summary .content b,
+.home[data-home=posts] .summary .content strong {
+  color: #444444;
+}
+
+[theme=dark] .home[data-home=posts] .summary .content b,
+[theme=dark] .home[data-home=posts] .summary .content strong {
+  color: #dcdcdc;
+}
+
+// Archive Item Date
+.archive .archive-item-date {
+  color: #444444;
+}
+
+[theme=dark] .archive .archive-item-date {
+  color: #dcdcdc;
+}
+
+// Tag Cloud
+.archive .tag-cloud-tags a sup {
+  color: #444444;
+}
+
+[theme=dark] .archive .tag-cloud-tags a sup {
+  color: #dcdcdc;
+}
+
+// Search Suggestion
+.search-dropdown .dropdown-menu .suggestions .suggestion .suggestion-date,
+.search-dropdown .dropdown-menu .suggestions .suggestion .suggestion-context {
+  color: #444444;
+}
+
+[theme=dark] .search-dropdown .dropdown-menu .suggestions .suggestion .suggestion-date,
+[theme=dark] .search-dropdown .dropdown-menu .suggestions .suggestion .suggestion-context {
+  color: #dcdcdc;
+}
+
+// Post Info Mod & License
+.single .post-footer .post-info .post-info-line .post-info-mod,
+.single .post-footer .post-info .post-info-line .post-info-license {
+  color: #444444;
+}
+
+[theme=dark] .single .post-footer .post-info .post-info-line .post-info-mod,
+[theme=dark] .single .post-footer .post-info .post-info-line .post-info-license {
+  color: #dcdcdc;
+}
+
+// Home Disclaimer
+.home .home-profile .home-disclaimer {
+  color: #444444;
+}
+
+[theme=dark] .home .home-profile .home-disclaimer {
+  color: #dcdcdc;
+}
+
+// Details Icon
+.details i.details-icon {
+  color: #444444;
+}
+
+[theme=dark] .details i.details-icon {
+  color: #dcdcdc;
+}
+
+// Fixed Button
+.fixed-button {
+  color: #444444;
+}
+
+[theme=dark] .fixed-button {
+  color: #dcdcdc;
+}
+
+// Search Input Placeholder
+.open .search input::-webkit-input-placeholder,
+.search.mobile input::-webkit-input-placeholder,
+.open .search input:-moz-placeholder,
+.search.mobile input:-moz-placeholder,
+.open .search input::-moz-placeholder,
+.search.mobile input::-moz-placeholder,
+.open .search input:-ms-input-placeholder,
+.search.mobile input:-ms-input-placeholder,
+.open .search input::placeholder,
+.search.mobile input::placeholder {
+  color: #444444;
+}
+
+[theme=dark] .open .search input::-webkit-input-placeholder,
+[theme=dark] .search.mobile input::-webkit-input-placeholder,
+[theme=dark] .open .search input:-moz-placeholder,
+[theme=dark] .search.mobile input:-moz-placeholder,
+[theme=dark] .open .search input::-moz-placeholder,
+[theme=dark] .search.mobile input::-moz-placeholder,
+[theme=dark] .open .search input:-ms-input-placeholder,
+[theme=dark] .search.mobile input:-ms-input-placeholder,
+[theme=dark] .open .search input::placeholder,
+[theme=dark] .search.mobile input::placeholder {
+  color: #dcdcdc;
+}
+
+// Search Button
+.open .search .search-button,
+.search.mobile .search-button {
+  color: #444444;
+}
+
+[theme=dark] .open .search .search-button,
+[theme=dark] .search.mobile .search-button {
+  color: #dcdcdc;
+}
+
+// Footer Text
+footer .footer-container {
+  color: #444444;
+}
+
+[theme=dark] footer .footer-container {
+  color: #dcdcdc;
+}
+
