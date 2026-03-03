@@ -1,0 +1,16 @@
+{{- $params := .Scratch.Get "params" -}}
+
+{{- /* Twitter Cards */ -}}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ .Title }}" />
+<meta name="twitter:description" content="{{ $params.description | default .Site.Params.description }}" />
+
+{{- with .Site.Params.Social.Twitter -}}
+<meta name="twitter:site" content="@{{ . }}" />
+{{- end -}}
+
+{{- $image := .Params.featuredImage | default .Site.Params.seo.image -}}
+{{- with $image -}}
+<meta name="twitter:image" content="{{ . | absURL }}" />
+{{- end -}}
+
