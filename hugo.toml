@@ -71,10 +71,10 @@ languageName = "Detusch"
 
 # Output formats
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "MarkDown", "JSON"]
-  section = ["HTML", "RSS", "JSON"]
-  taxonomy = ["HTML", "RSS", "JSON"]
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
 
 [caches]
   [caches.images]
