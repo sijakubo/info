@@ -54,10 +54,13 @@ languageName = "Detusch"
       name = "Simon Jakubowski"
       typeit = true
   [params.home]
-    homeStyle = "posts"
     [params.home.profile]
+      enable = false
       typeit = false
       subtitle = ""
+    [params.home.posts]
+      enable = true
+      paginate = 6
   [params.section]
     paginate = 20
     dateFormat = "01-02"
@@ -77,7 +80,7 @@ languageName = "Detusch"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML"]
-  section = ["HTML", "RSS"]
+  section = ["HTML"]
   taxonomy = ["HTML"]
 
 [caches]
