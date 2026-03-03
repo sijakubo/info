@@ -73,7 +73,7 @@ languageName = "Detusch"
 [outputs]
   home = ["HTML"]
   page = ["HTML"]
-  section = ["HTML", "RSS"]
+  section = ["HTML"]
   taxonomy = ["HTML"]
 
 [caches]
