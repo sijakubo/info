@@ -5,7 +5,7 @@ draft = false
 tags = ["cors", "http", "backend", "frontend"]
 +++
 
-# What is CORS?
+## What is CORS?
 
 CORS, an abbreviation for "Cross-Origin Resource Sharing," fundamentally aims to ensure that data is distributed only to "trusted" users.
 However, this assurance is not server-side but rather on the client side. For instance, if CORS is enabled on a server, it sends additional
@@ -15,7 +15,7 @@ Modern browsers block access to data that is not considered "trusted" for the cu
 occur in the browser's network tab. Using developer tools such as Postman, data can be retrieved from origins not deemed "trusted" because
 CORS validation is simply ignored. This can occasionally complicate the analysis of such issues.
 
-# What CORS Headers are there?
+## What CORS Headers are there?
 
 Here are some of the essential CORS response headers:
 
@@ -24,12 +24,12 @@ Here are some of the essential CORS response headers:
 - `Access-Control-Allow-Methods`: Defines the HTTP methods (e.g., GET, POST, PUT) allowed for accessing the resource.
 - `Access-Control-Allow-Headers`: Indicates which HTTP headers are allowed in a request when accessing the resource.
 
-# What are CORS Preflight requests?
+## What are CORS Preflight requests?
 
 Often, the client initially sends an OPTIONS (HTTP method) request to the server to ensure that further requests are allowed. This is
 referred to as a "preflight." This is done to prevent scenarios where a POST / PUT / DELETE request is executed from an untrusted origin.
 
-# What do I need to remember?
+## What do I need to remember?
 
 - CORS is controlled by the backend/server through response headers.
 - Browsers/clients interpret the response headers and may report a CORS error.
