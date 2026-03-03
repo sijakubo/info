@@ -75,9 +75,9 @@ languageName = "Detusch"
 
 # Output formats
 [outputs]
-  home = ["HTML"]
+  home = ["HTML", "RSS", "JSON"]
   page = ["HTML"]
-  section = ["HTML"]
+  section = ["HTML", "RSS"]
   taxonomy = ["HTML"]
 
 [caches]
