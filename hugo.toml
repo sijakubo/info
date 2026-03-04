@@ -73,6 +73,10 @@ languageName = "English"
     Linkedin = "simon-jakubowski"
   [params.search]
     enable = true
+    type = "lunr"
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = "em"
   [params.app]
     title = "Simon Jakubowski"
 
