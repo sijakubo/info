@@ -7,8 +7,8 @@ theme = "loveIt"
 title = "Simon Jakubowski"
 
 # Language settings
-languageCode = "de"
-languageName = "Detusch"
+languageCode = "en"
+languageName = "English"
 
 # Menu config
 [menu]
@@ -49,6 +49,7 @@ languageName = "Detusch"
 [params]
   title = "Simon Jakubowski"
   description = "About Simon Jakubowski"
+  dateFormat = "01.02.2006"
   [params.header]
     [params.header.title]
       name = "Simon Jakubowski"
@@ -63,7 +64,6 @@ languageName = "Detusch"
       paginate = 6
   [params.section]
     paginate = 20
-    dateFormat = "01-02"
   [params.author]
     name = " Simon Jakubowski"
     email = "sijakubo@gmail.com"
