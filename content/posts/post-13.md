@@ -45,7 +45,7 @@ That makes it a very lightweight option for teams that simply want to add Shapef
 
 The following Spock test uses a `FeatureCollection` from `input.geojson` and writes the result into a temporary output directory.
 
-Compared to a simple `then: true`, this version actually verifies that the expected Shapefile artifacts were created:
+The assertions verify that the expected Shapefile artifacts were created successfully:
 
 ```groovy
 import org.springframework.core.io.ClassPathResource
@@ -77,7 +77,7 @@ class ShapefileTest extends Specification {
 }
 ```
 
-Using a temporary directory makes the example easier to understand and avoids mysterious output folders such as `Path.of("out")` in the project root.
+Using a temporary directory keeps the example self-contained and avoids leaving generated files behind in the project workspace.
 
 ## Input data
 
