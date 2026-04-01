@@ -26,9 +26,136 @@ body {
   color: #dcdcdc;
 }
 
-[theme=light] .single .content code {
+[theme=light] .single .content :not(pre) > code {
     color: #00668c;
 }
+
+.single .content .highlight code,
+.single .content .highlight code span {
+  color: inherit;
+}
+
+.single .content .highlight .p { color: #a9a9b3; }
+.single .content .highlight .k,
+.single .content .highlight .kc,
+.single .content .highlight .kd,
+.single .content .highlight .kn,
+.single .content .highlight .kp,
+.single .content .highlight .kr,
+.single .content .highlight .kt,
+.single .content .highlight .ow { color: #b501a9; }
+.single .content .highlight .n,
+.single .content .highlight .nx { color: #333333; }
+.single .content .highlight .na,
+.single .content .highlight .no,
+.single .content .highlight .ne,
+.single .content .highlight .nf,
+.single .content .highlight .nl,
+.single .content .highlight .nn,
+.single .content .highlight .nt,
+.single .content .highlight .nv,
+.single .content .highlight .vc,
+.single .content .highlight .vg,
+.single .content .highlight .vi,
+.single .content .highlight .vm,
+.single .content .highlight .py { color: #2b77fa; }
+.single .content .highlight .nb,
+.single .content .highlight .bp { color: #f74840; }
+.single .content .highlight .nc { color: #cb8100; }
+.single .content .highlight .nd { color: #0086c1; }
+.single .content .highlight .fm { color: #1ccad6; }
+.single .content .highlight .l,
+.single .content .highlight .ld { color: #2aa198; }
+.single .content .highlight .s,
+.single .content .highlight .sa,
+.single .content .highlight .sb,
+.single .content .highlight .sc,
+.single .content .highlight .dl,
+.single .content .highlight .sd,
+.single .content .highlight .s1,
+.single .content .highlight .s2,
+.single .content .highlight .se,
+.single .content .highlight .sh,
+.single .content .highlight .si,
+.single .content .highlight .sr,
+.single .content .highlight .ss,
+.single .content .highlight .sx { color: #24a443; }
+.single .content .highlight .m,
+.single .content .highlight .mb,
+.single .content .highlight .mf,
+.single .content .highlight .mh,
+.single .content .highlight .mi,
+.single .content .highlight .il,
+.single .content .highlight .mo { color: #e2893c; }
+.single .content .highlight .o { color: #f19b04; }
+.single .content .highlight .c,
+.single .content .highlight .ch,
+.single .content .highlight .cm,
+.single .content .highlight .c1,
+.single .content .highlight .cs,
+.single .content .highlight .cp,
+.single .content .highlight .cpf { color: #a0a1a8; font-style: italic; }
+
+[theme=dark] .single .content .highlight .p { color: #a9a9b3; }
+[theme=dark] .single .content .highlight .k,
+[theme=dark] .single .content .highlight .kc,
+[theme=dark] .single .content .highlight .kd,
+[theme=dark] .single .content .highlight .kn,
+[theme=dark] .single .content .highlight .kp,
+[theme=dark] .single .content .highlight .kr,
+[theme=dark] .single .content .highlight .kt,
+[theme=dark] .single .content .highlight .ow { color: #d371e3; }
+[theme=dark] .single .content .highlight .n,
+[theme=dark] .single .content .highlight .nx { color: #a9b2c0; }
+[theme=dark] .single .content .highlight .na,
+[theme=dark] .single .content .highlight .no,
+[theme=dark] .single .content .highlight .ne,
+[theme=dark] .single .content .highlight .nf,
+[theme=dark] .single .content .highlight .nl,
+[theme=dark] .single .content .highlight .nn,
+[theme=dark] .single .content .highlight .nt,
+[theme=dark] .single .content .highlight .nv,
+[theme=dark] .single .content .highlight .vc,
+[theme=dark] .single .content .highlight .vg,
+[theme=dark] .single .content .highlight .vi,
+[theme=dark] .single .content .highlight .vm,
+[theme=dark] .single .content .highlight .py { color: #41b0f5; }
+[theme=dark] .single .content .highlight .nb { color: #19b9c4; }
+[theme=dark] .single .content .highlight .bp,
+[theme=dark] .single .content .highlight .nc,
+[theme=dark] .single .content .highlight .nd { color: #ecbf6f; }
+[theme=dark] .single .content .highlight .fm { color: #19b9c4; }
+[theme=dark] .single .content .highlight .l,
+[theme=dark] .single .content .highlight .ld { color: #2aa198; }
+[theme=dark] .single .content .highlight .s,
+[theme=dark] .single .content .highlight .sa,
+[theme=dark] .single .content .highlight .sb,
+[theme=dark] .single .content .highlight .sc,
+[theme=dark] .single .content .highlight .dl,
+[theme=dark] .single .content .highlight .sd,
+[theme=dark] .single .content .highlight .s1,
+[theme=dark] .single .content .highlight .s2,
+[theme=dark] .single .content .highlight .se,
+[theme=dark] .single .content .highlight .sh,
+[theme=dark] .single .content .highlight .si,
+[theme=dark] .single .content .highlight .sr,
+[theme=dark] .single .content .highlight .ss,
+[theme=dark] .single .content .highlight .sx { color: #8cc570; }
+[theme=dark] .single .content .highlight .m,
+[theme=dark] .single .content .highlight .mb,
+[theme=dark] .single .content .highlight .mf,
+[theme=dark] .single .content .highlight .mh,
+[theme=dark] .single .content .highlight .mi,
+[theme=dark] .single .content .highlight .il,
+[theme=dark] .single .content .highlight .mo { color: #db985c; }
+[theme=dark] .single .content .highlight .o { color: #ecbf6f; }
+[theme=dark] .single .content .highlight .c,
+[theme=dark] .single .content .highlight .ch,
+[theme=dark] .single .content .highlight .cm,
+[theme=dark] .single .content .highlight .c1,
+[theme=dark] .single .content .highlight .cs,
+[theme=dark] .single .content .highlight .cp,
+[theme=dark] .single .content .highlight .cpf { color: #7e848f; font-style: italic; }
 
 // Content Farben
 .single .content .footnotes {
@@ -182,4 +309,3 @@ footer .footer-container {
 [theme=dark] footer .footer-container {
   color: #dcdcdc;
 }
-
